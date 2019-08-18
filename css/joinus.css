@@ -1,0 +1,214 @@
+*{
+	padding:0;
+	margin:0;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #333;
+}
+.header{
+     height: 79px;
+     width:1000px;
+     margin:auto;
+}
+.header .logo{
+	float: left;
+	width:203px;
+	height:79px;
+}
+.logo .logo_img{
+	 width:207px;
+	 height:49px; 
+	 margin-top: 14px;
+     background: url(../images/logo2.png) no-repeat 0 0;
+	 display: inline-block;
+	 cursor: pointer;
+}
+.header .list{
+	float: right;
+}
+.header .list li{
+	float: left;
+	line-height:79px;
+	cursor: pointer;
+}
+.header .list li a{
+	display: block;
+	font-size: 16px;
+	padding:0 30px;
+	color: #0F0F0F;
+}
+.header .list li a:hover{
+	color: #4B97DB;
+}
+.header .list li.current a:hover{
+	color: #ffffff;
+}
+.header .list .current a{
+	background-color:#11b273;
+	color:#fff;
+	font-weight:bold; 
+}
+
+.image_bg{
+	background: url(../images/bg.jpg) no-repeat top center;
+	max-width: 2000px;
+    height: 1243px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    width: 100%;
+    background-color: #42415e;
+}
+.posi_btn{
+	width: 1000px;
+	height: 740px;
+	margin:0 auto;
+	position: relative;
+}
+.btn{
+	display:inline-block;
+	vertical-align:middle;
+	background:url(../images/i_xt.png) no-repeat;
+	background-size:100% 100%;
+	width:198px;
+	height:66px;
+	position:absolute;
+	top: 226px;
+    left: 682px;
+	cursor:pointer;
+}
+.xbtn {
+    -webkit-animation: xbtn 2s infinite ease;
+    -moz-animation: xbtn 2s infinite ease;
+    -o-animation: xbtn 2s infinite ease;
+    animation: xbtn 2s infinite ease;
+    -webkit-animation-fill-mode: backwards;
+    -moz-animation-fill-mode: backwards;
+    -o-animation-fill-mode: backwards;
+    animation-fill-mode: backwards
+}
+@keyframes xbtn{
+    from{ opacity: .1; -webkit-transform: scale(0.9,0.9);}
+    to{ opacity: 1; -webkit-transform:  scale(1,1);  }
+}
+.posi_qiu{
+	width:1000px;
+	height: 210px;
+	margin:0 auto;
+}
+.posi_qiu li{
+	float: left;
+	width:190px;
+	margin-right:80px;
+}
+.posi_qiu li:last-child{
+	margin-right:0px;
+}
+.posi_qiu li a{
+	display: block;
+	width:190px;
+	height: 208px;
+}
+.qiu1 .first_qiu{
+	background:url(../images/qiu1.png) center center no-repeat;
+	width:175px;
+	height:175px;
+	margin-top: 3px;
+}
+.qiu2 .second_qiu{
+	background:url(../images/qiu2.png) center center no-repeat;
+	width:175px;
+	height:175px;
+	margin-top: 3px;
+}
+.qiu3 .third_qiu{
+	background:url(../images/qiu3.png) center center no-repeat;
+	width:175px;
+	height:175px;
+	margin-top: 3px;
+}
+.qiu4 .fourth_qiu{
+	background:url(../images/qiu4.png) center center no-repeat;
+	width:175px;
+	height:175px;
+	margin-top: 3px;
+}
+.posi_qiu .qiu_text h3 {
+    font-size: 16px;
+    line-height: 30px;
+    width: 130px;
+    height: 30px;
+    border-radius: 50px;
+    text-align: center;
+    color: #272676;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 20px;
+    position: relative;
+}
+.qiu1 h3{
+	background: #00b7ee;
+}
+.qiu2 h3{
+	background: #ffc600;
+}
+.qiu3 h3{
+	background: #fe5f4b;
+}
+.qiu4 h3{
+	background: #ffc600;
+}
+.qiu1 h3:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 56px;
+    top: -11px;
+    border: 6px solid transparent;
+    border-bottom-color: #00b7ee;
+}
+.qiu2 h3:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 56px;
+    top: -11px;
+    border: 6px solid transparent;
+    border-bottom-color: #ffc600;
+}
+.qiu3 h3:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 56px;
+    top: -11px;
+    border: 6px solid transparent;
+    border-bottom-color: #fe5f4b;
+}
+.qiu4 h3:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 56px;
+    top: -11px;
+    border: 6px solid transparent;
+    border-bottom-color:#ffc600;
+}
+.footer{
+	text-align: center;
+	width:100%;
+	height: 38px;
+	line-height: 38px;
+	font-size: 14px;
+	color: #7a789b;
+    background: #383753
+}

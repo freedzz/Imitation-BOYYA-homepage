@@ -1,0 +1,389 @@
+body: {
+	width: 100%;
+	height: 100%;
+}
+
+/* 头部 */
+header {
+	width: 100%;
+	height: auto;
+	background: #191D3A;
+}
+
+.head {
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	background: #191D3A;
+	position: relative;
+}
+
+.head-left {
+	margin: auto 0;
+	width: 157px;
+	height: 36px;
+	flex: 0 1 auto;
+}
+.head-left img{
+	width: 157px;
+	height: 36px;
+}
+
+.head-center {
+	flex: 0 1 auto;
+	margin-left: 48px;
+	height: 58px;
+}
+
+.head-center ul,li {
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+.head-center ul li {
+	width: 86px;
+	height: 58px;
+	text-align: center;
+	line-height: 58px;
+	font-size: 14px;
+	color: #818496;
+	border-right: 1px solid #252947;
+	float: left;
+}
+.head-center ul li:nth-child(5) a{
+	color: white;
+}
+.head-center ul li:nth-child(5){
+	background: #252947;
+}
+.head-center ul li a{
+	text-decoration: none;
+	color: #818496;
+}
+.head-center ul li:hover a{
+	text-decoration: none;
+	color: white;
+}
+.head-center ul li:hover {
+	color: white;
+	/* background: #252947;
+	background-size: 100%; */
+}
+.head-center ul li:first-child {
+	border-left: 1px solid #252947;
+}
+.head-right {
+	flex: 0 1 auto;
+	margin: auto 0;
+	margin-left: 12px;
+}
+
+.head-right button {
+	width: 100px;
+	height: 34px;
+	font-size: 14px;
+	line-height: 30px;
+	background: #38B774;
+	border: 1px solid #38B774;
+	color: white;
+	border-radius: 3px;
+}
+.head-right button:hover{
+	background: #2BA365;
+}
+.changeLan{
+	color: #38B774;
+	width: 70px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 14px;
+	position: absolute;
+	right: 0px;
+	/* margin-left: 170px; */
+	/* margin-left: 100px; */
+}
+.changeLan span{
+	margin-left: 15px;
+	color: #818496;
+}
+.changeLan span:hover{
+	color: #38B774;
+}
+/* 背景图片 */
+#bac{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.bac {
+	width: 100%;
+	height: 254px;
+	background: #fffaf4 url(../img/faqbanner.jpg) repeat-x center;
+	margin: 0 auto;
+}
+/* 内容区域 */
+/* 内容区域上部分 */
+.content {
+	width: 100%;
+	height: auto;
+}
+.container{
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+}
+.content-tit {
+	display: flex;
+	position: relative;
+	margin-top: 12px;
+	border-bottom: 1px solid #C7D6E5;
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 15px;
+	color: #444866;
+}
+
+.content-tit .content-tit-left {
+	flex: 0 1 auto;
+	display: flex;
+	width: auto;
+}
+.content-tit .content-tit-left div {
+	margin-top: 18px;
+	margin-right: 3px;
+	width: 23px;
+	height: 22px;
+	display: inline-block;
+	background-image: url(../img/location.png);
+	background-position: 0px -193px;
+	flex: 0 1 auto;
+}
+.content-tit .content-tit-left h2 {
+	font-size: 20px;
+	line-height: 56px;
+	flex: 0 1 auto;
+	font-weight: bold;
+	color: #444866;
+	margin-left: 5px;
+}
+.content-tit .content-tit-right {
+	flex: 0 1 auto;
+	font-size: 12px;
+	line-height: 20px;
+	position: absolute;
+	right: 0px;
+	width: auto;
+	height: auto;
+	margin-top: 18px;
+}
+.content-tit .content-tit-right img {
+	display: inline-block;
+	margin-right: 5px;
+}
+.content-tit .content-tit-right ul,li {
+	display: inline-block;
+	color: #444866;
+}
+.content-tit .content-tit-right ul li .sanjiao{
+	width: 5px;
+	height: 8px;
+	display: inline-block;
+	background-image: url(../img/icon.png);
+	background-position: 0px -150px;
+}
+/* 内容区域上部分 */
+.content-mincontent{
+	width: auto;
+	height: auto;
+	margin-top: 26px;
+}
+.content-mincontent .content-mincontent-top{
+	width: auto;
+	height: auto;
+	margin-bottom: 20px;
+}
+.content-mincontent .content-mincontent-top ul{
+	font-size: 0px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.content-mincontent .content-mincontent-top ul li{
+	width: 320px;
+	height: 138px;
+	margin-right: 20px;
+	background-color: #F1F1F1;
+}
+.content-mincontent .content-mincontent-top ul li:last-child{
+	margin-right: 0px;
+}
+.content-mincontent .content-mincontent-top ul li div{
+	width: 59px;
+	height: 36px;
+	margin: 0 auto;
+	margin-top: 28px;
+}
+.content-mincontent .content-mincontent-top ul li:nth-child(1) div{
+	background-image: url(../img/faqicon.png);
+	background-position: 0px -21px;
+}
+.content-mincontent .content-mincontent-top ul li:nth-child(2) div{
+	background-image: url(../img/faqicon.png);
+	background-position: 0px -225px;
+}
+.content-mincontent .content-mincontent-top ul li:nth-child(3) div{
+	background-image: url(../img/faqicon.png);
+	background-position: 0px -158px;
+}
+.content-mincontent .content-mincontent-top ul li h6{
+	font-size: 14px;
+	margin-top: 14px;
+	text-align: center;
+}
+.content-mincontent .content-mincontent-top ul li:nth-child(3) h1 a{
+	text-decoration: none; 
+	color: #444866;
+}
+.content-mincontent .content-mincontent-top ul li:nth-child(3) h1 a:hover{
+	text-decoration: underline;
+}
+.content-mincontent .content-mincontent-top ul li:nth-child(2) h1 img{
+	height: 25px;  
+	display: inline-block;
+	position: relative;
+	left: 5px;
+	bottom: -3px;
+}
+
+.content-mincontent .content-mincontent-top ul li h1{
+	margin-top: 5px;
+	text-align: center;
+	font-size: 25px;
+}
+.content-mincontent .content-mincontent-bottom{
+	margin-bottom: 80px;
+	font-size: 15px;
+	color: #444866;
+}
+.content-mincontent .content-mincontent-bottom h6{
+	line-height: 78px;
+	font-size: 15px;
+	
+}
+.content-mincontent .content-mincontent-bottom ul{
+	font-size: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.content-mincontent .content-mincontent-bottom ul li{
+	border-top: 1px solid #E0E0E0;
+	border-left: 1px solid #E0E0E0;
+	width: 248px;
+	height: 152px;
+}
+.content-mincontent .content-mincontent-bottom ul li:hover{
+	background-color: #F1F1F1;
+	font-weight: bold;
+}
+.content-mincontent .content-mincontent-bottom ul li:nth-child(4){
+	border-right: 1px solid #E0E0E0;
+}
+.content-mincontent .content-mincontent-bottom ul li:nth-child(8){
+	border-right: 1px solid #E0E0E0;
+}
+.content-mincontent .content-mincontent-bottom ul li:nth-child(5){
+	border-bottom: 1px solid #E0E0E0;
+}
+.content-mincontent .content-mincontent-bottom ul li:nth-child(6){
+	border-bottom: 1px solid #E0E0E0;
+}
+.content-mincontent .content-mincontent-bottom ul li:nth-child(7){
+	border-bottom: 1px solid #E0E0E0;
+}
+.content-mincontent .content-mincontent-bottom ul li:nth-child(8){
+	border-bottom: 1px solid #E0E0E0;
+}
+.content-mincontent .content-mincontent-bottom ul li div{
+	width: 70px;
+	height: 70px;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+.content-mincontent .content-mincontent-bottom ul li h6{
+	text-align: center;
+	font-size: 15px;
+	line-height: 37px;
+}
+.content-mincontent .content-mincontent-bottom ul li:nth-child(1) div{
+	background-image: url(../img/bya1.png);
+}
+.content-mincontent .content-mincontent-bottom ul li:nth-child(2) div{
+	background-image: url(../img/byaddz.png);
+}
+.content-mincontent .content-mincontent-bottom ul li:nth-child(3) div{
+	background-image: url(../img/byaxiangq.png);
+}
+.content-mincontent .content-mincontent-bottom ul li:nth-child(4) div{
+	background-image: url(../img/byakawux.png);
+}
+.content-mincontent .content-mincontent-bottom ul li:nth-child(5) div{
+	background-image: url(../img/byascmaj.png);
+}
+.content-mincontent .content-mincontent-bottom ul li:nth-child(6) div{
+	background-image: url(../img/byamj.png);
+}
+.content-mincontent .content-mincontent-bottom ul li:nth-child(7) div{
+	background-image: url(../img/errenmaj2.png);
+}
+.content-mincontent .content-mincontent-bottom ul li:nth-child(8) div{
+	background-image: url(../img/faq_gamebg.png);
+}
+
+/* 底部 */
+footer {
+	width: auto;
+	height: auto;
+	background: #191D3A;
+}
+.foot {
+	width: 1000px;
+	height: auto;
+	font-size: 11px;
+	line-height: 50px;
+	color: #818496;
+	position: relative;
+	margin: 0 auto;
+	padding: 20px 0px;
+}
+.foot .foot-left span:hover{
+	color: white;
+}
+
+.foot .foot-bottom{
+	width: 100%;
+	font-size: 11px;
+	line-height: 50px;
+}
+.foot .foot-bottom img{
+	width: 36px;
+	height: 52px;
+	position: absolute;
+}
+/* 侧边栏 */
+.right-side {
+	width: 68px;
+	height: 28px;
+	position: fixed;
+	right: 15px;
+	bottom: 75px;
+	background-image: url(../img/top.png);
+	background-position: 0px -40px;
+	z-index: 99;
+}
+.right-side:hover{
+	background-image: url(../img/top.png);
+	background-position: 0px 0px ;
+}
